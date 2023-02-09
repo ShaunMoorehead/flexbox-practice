@@ -1,0 +1,21 @@
+body{
+    background-color: blue;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+div{
+display: flex;
+border: 10px;border-style: solid;
+justify-content: center;
+text-align: center;
+width: 200px;
+height: 200px;
+font-size: x-large;
+background-color: bisque;
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+}
